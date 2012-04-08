@@ -1,6 +1,6 @@
 class RomanNumerals
 
-  SYMBOLS = [["V",5], ["IV",4],["I",1]]
+  SYMBOLS = [["X",10],["V",5], ["IV",4],["I",1]]
 
 	def convertir_romano(numeronatural)
 		if numeronatural == 0

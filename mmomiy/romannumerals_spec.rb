@@ -21,6 +21,10 @@ describe RomanNumerals do
       @romano.convertir_romano(5).should == "V"
     end
 
+    it "10 debe convertirse en X" do
+      @romano.convertir_romano(10).should == "X"
+    end
+
   end
 
   context "Agregar un valor " do
@@ -32,6 +36,9 @@ describe RomanNumerals do
      @romano.convertir_romano(3).should == "III"
     end 
 
+    it "8 debe convertirse en VIII" do
+     @romano.convertir_romano(8).should == "VIII"
+    end 
   end
 
   context "Disminuir un valor " do
