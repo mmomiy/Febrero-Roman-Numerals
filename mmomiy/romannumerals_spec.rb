@@ -16,6 +16,11 @@ describe RomanNumerals do
     it "1 debe convertirse en I" do
       @romano.convertir_romano(1).should == "I"
     end
+    
+    it "5 debe convertirse en V" do
+      @romano.convertir_romano(5).should == "V"
+    end
+
   end
 
   context "Agregar un valor " do

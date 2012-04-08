@@ -5,6 +5,7 @@ class RomanNumerals
 			raise "No se puede convertir el numero 0"
 		end
 
+    return "V" if numeronatural == 5
     return "IV" if numeronatural == 4
 
 		result = ""
