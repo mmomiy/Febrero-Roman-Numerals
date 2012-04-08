@@ -12,21 +12,26 @@ describe RomanNumerals do
       }.should raise_exception
   end
 
-  context "convertir " do
-
-    it "1 en I" do
-     @romano.convertir_romano(1).should == "I"
+  context "convertir simbolos (I,V,X,L,C,D,M)" do
+    it "1 debe convertirse en I" do
+      @romano.convertir_romano(1).should == "I"
     end
+  end
 
-    it "2 en II" do
+  context "Agregar un valor " do
+    it "2 debe convertirse en II" do
      @romano.convertir_romano(2).should == "II"
     end  
 
-    it "3 en III" do
+    it "3 debe convertirse en III" do
      @romano.convertir_romano(3).should == "III"
     end 
   end
 
-  
+  context "Disminuir un valor " do
+    it "4 debe convertirse en IV" do
+     @romano.convertir_romano(4).should == "IV"
+    end   
+  end
 end
 

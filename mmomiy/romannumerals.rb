@@ -5,6 +5,8 @@ class RomanNumerals
 			raise "No se puede convertir el numero 0"
 		end
 
+    return "IV" if numeronatural == 4
+
 		result = ""
     while numeronatural >= 1
       result += "I"
