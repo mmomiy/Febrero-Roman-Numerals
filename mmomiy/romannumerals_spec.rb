@@ -17,6 +17,10 @@ describe RomanNumerals do
     it "1 en I" do
      @romano.convertir_romano(1).should == "I"
     end
+
+    it "2 en II" do
+     @romano.convertir_romano(2).should == "II"
+    end    
   end
 
   

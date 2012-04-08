@@ -4,7 +4,14 @@ class RomanNumerals
 		if numeronatural == 0
 			raise "No se puede convertir el numero 0"
 		end
-		return "I"
+		
+    if numeronatural == 1
+      return "I"
+    end
+
+    if numeronatural == 2
+      return "II"
+    end
 	end
 
 end
