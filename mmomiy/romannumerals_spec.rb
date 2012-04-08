@@ -20,7 +20,11 @@ describe RomanNumerals do
 
     it "2 en II" do
      @romano.convertir_romano(2).should == "II"
-    end    
+    end  
+
+    it "3 en III" do
+     @romano.convertir_romano(3).should == "III"
+    end 
   end
 
   

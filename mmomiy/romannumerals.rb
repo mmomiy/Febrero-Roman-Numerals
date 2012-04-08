@@ -12,6 +12,10 @@ class RomanNumerals
     if numeronatural == 2
       return "II"
     end
+
+    if numeronatural == 3
+      return "III"
+    end
 	end
 
 end
