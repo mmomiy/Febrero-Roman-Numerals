@@ -39,6 +39,10 @@ describe RomanNumerals do
     it "8 debe convertirse en VIII" do
      @romano.convertir_romano(8).should == "VIII"
     end 
+
+    it "16 debe convertirse en XVI" do
+     @romano.convertir_romano(16).should == "XVI"
+    end 
   end
 
   context "Disminuir un valor " do
