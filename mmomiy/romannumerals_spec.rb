@@ -29,6 +29,10 @@ describe RomanNumerals do
       @romano.convertir_romano(50).should == "L"
     end
 
+    it "100 debe convertirse en C" do
+      @romano.convertir_romano(100).should == "C"
+    end
+
   end
 
   context "Agregar un valor " do
